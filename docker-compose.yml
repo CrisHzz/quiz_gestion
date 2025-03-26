@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nombre_del_servicio:
+    image: crishzz/julia_app:latest
+    ports:
+      - "8000:8000"
+
